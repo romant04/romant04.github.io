@@ -1,0 +1,18 @@
+.level-box {
+    display: flex;
+    flex-direction: column;
+
+    .levels {
+        display: flex;
+        gap: 2px;
+
+        .level {
+            background-color: #5c00964f;
+            height: 2em;
+            width: 8em;
+        }
+        .checked {
+            background-color: #5c0096;
+        }
+    }
+}
